@@ -1,4 +1,4 @@
-# icosphereGenerator
+# Icosphere Generator
 A function which generates a vertex and index buffer of a unit icosphere.
 ### function header:
 void generateIcosphere(std::vector<float>* vertices, std::vector<unsigned int>* indices, int samples);
