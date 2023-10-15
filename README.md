@@ -2,7 +2,6 @@
 
 A lightweight C++ library for generating Icosphere meshes.
 
-### sample Image
 ![image](icosphere.png)
 
 ## Introduction
@@ -21,21 +20,18 @@ To install the Icosphere Generator, simply include the `icosphere_generator.hpp`
 
 ## Usage:
 
-#include the file
-/#include "icosphere_generator.hpp"
-
-#Create an Icosphere object with the desired number of samples:
+## Create an Icosphere object with the desired number of samples:
 IcosphereGenerator::Icosphere icosphere(2);  // For example: samples = 2
 
-# Generate the mesh:
+## Generate the mesh:
 icosphere.generate();
 
 # Access the vertices and indices:
 std::vector<float> vertices = icosphere.vertices;
 std::vector<unsigned int> indices = icosphere.indices;
 
-## Usage:
+## Contributing:
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Make sure to update tests as appropriate.
 
-## Usage:
+## License:
 This project is licensed under the MIT License. For more information, see MIT License.
