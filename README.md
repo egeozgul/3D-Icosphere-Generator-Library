@@ -1,5 +1,5 @@
-# Icosphere Generator
-A standalone function which generates the vertex and index buffer of a unit icosphere.
+# Icosphere Generator Library
+A standalone library implemented in a header file. The algorithm efficiently generates the vertex and index buffer of a unit icosphere.
 
 ### function header:
 void generateIcosphere(std::vector<float>* vertices, std::vector<unsigned int>* indices, int samples);
