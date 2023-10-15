@@ -1,20 +1,41 @@
 # Icosphere Generator Library
-A standalone library implemented in a header file. The algorithm efficiently generates the vertex and index buffer of a unit icosphere.
 
-### function header:
-void generateIcosphere(std::vector<float>* vertices, std::vector<unsigned int>* indices, int samples);
+A lightweight C++ library for generating Icosphere meshes.
 
-### function arguements
-std::vector<float>* vertices        : vertex buffer address
-std::vector<unsigned int>* indices  : index buffer address
-int samples                         : number of times the original unit is subdivided
-
-### Vertex buffer format
-Vertex buffer has 6 attributes in this implementation:
-x,y,z coordinates and r,g,b values. Modify the file according to your needs.
-  
-### how it works
-A unit octahedral is first generated. Then each face of the octahedral is subdivided into smaller triangles sample number of times. So if sample=0, then it is not divided.
-Finally the coordinate of all of the generated vertices are normalized which forms the following sample icosphere.
-### sample shot
+### sample Image
 ![image](icosphere.png)
+
+## Introduction
+
+The Icosphere Generator provides an efficient way to generate vertices and indices for Icosphere meshes. An Icosphere is a polyhedron made up of equilateral triangle faces. It's often used in 3D graphics due to its even distribution of vertices which is particularly useful for applications like spherical environment mapping.
+
+## Features
+
+- Generate vertices and indices for an Icosphere mesh.
+- Define the level of detail with the sample parameter.
+- Efficient memory management for vertices and indices storage.
+
+## Installation
+
+To install the Icosphere Generator, simply include the `icosphere_generator.hpp` header in your project.
+
+## Usage:
+
+#include the file
+/#include "icosphere_generator.hpp"
+
+#Create an Icosphere object with the desired number of samples:
+IcosphereGenerator::Icosphere icosphere(2);  // For example: samples = 2
+
+# Generate the mesh:
+icosphere.generate();
+
+# Access the vertices and indices:
+std::vector<float> vertices = icosphere.vertices;
+std::vector<unsigned int> indices = icosphere.indices;
+
+## Usage:
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Make sure to update tests as appropriate.
+
+## Usage:
+This project is licensed under the MIT License. For more information, see MIT License.
