@@ -2,6 +2,8 @@
 
 A lightweight C++ library for generating Icosphere meshes.
 
+<div class="sketchfab-embed-wrapper"> <iframe title="printer v6" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/0dcb5f802ad5404a830a89f99d20c65e/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/printer-v6-0dcb5f802ad5404a830a89f99d20c65e?utm_medium=embed&utm_campaign=share-popup&utm_content=0dcb5f802ad5404a830a89f99d20c65e" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> printer v6 </a> by <a href="https://sketchfab.com/Ege.Ozgul?utm_medium=embed&utm_campaign=share-popup&utm_content=0dcb5f802ad5404a830a89f99d20c65e" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> _ </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=0dcb5f802ad5404a830a89f99d20c65e" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+
 <div align="center">
   <img src="icosphere.png" alt="Description of Image" width="500">
 </div>
