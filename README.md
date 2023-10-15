@@ -2,8 +2,6 @@
 
 A lightweight C++ library for generating Icosphere meshes.
 
-![image](icosphere.png)
-
 <div align="center">
   <img src="icosphere.png" alt="Description of Image" width="500">
 </div>
