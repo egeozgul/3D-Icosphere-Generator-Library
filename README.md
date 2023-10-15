@@ -4,6 +4,10 @@ A lightweight C++ library for generating Icosphere meshes.
 
 ![image](icosphere.png)
 
+<div align="center">
+  <img src="icosphere.png" alt="Description of Image" width="500">
+</div>
+
 # Introduction
 
 The Icosphere Generator provides an efficient way to generate vertices and indices for Icosphere meshes. An Icosphere is a polyhedron made up of equilateral triangle faces. It's often used in 3D graphics due to its even distribution of vertices which is particularly useful for applications like spherical environment mapping.
