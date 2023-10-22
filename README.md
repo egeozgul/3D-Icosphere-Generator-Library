@@ -4,7 +4,6 @@
 
 <p align="center">
     <img src="Icosphere.png" alt="Icosphere Image 1" width="70%" height="50%">
-    <img src="icosphere.png" alt="Icosphere Image 2" width="70%" height="50%">
 </p>
 
 ---
