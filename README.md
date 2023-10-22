@@ -29,19 +29,17 @@ Integrating the Icosphere Generator is a breeze. Just incorporate the `icosphere
    ```cpp
    IcosphereGenerator::Icosphere icosphere(2);  // Example: samples = 2
 
+2. **Generate The Icosphere Mesh**
+   ```cpp
+   icosphere.generate();
 
-## Mesh Generation:
-icosphere.generate();
-Retrieve the Vertices and Indices:
-
-std::vector<float> vertices = icosphere.vertices;
-std::vector<unsigned int> indices = icosphere.indices;
+3. **Retrieve the Vertices and Indices**
+   ```cpp
+   std::vector<float> vertices = icosphere.vertices;
+   std::vector<unsigned int> indices = icosphere.indices;
 
 ## 🤝 Contributing
 Your contributions can make this library even better! Feel free to open pull requests. For significant alterations, it's recommended to initiate an issue first to deliberate over the proposed changes. Don't forget to synchronize any test modifications accordingly.
 
-##📜 License
+## 📜 License
 The Icosphere Generator Library is open-sourced under the MIT License. For comprehensive details, please refer to the MIT License documentation.
-
-Dive into the world of 3D graphics with ease and precision using the Icosphere Generator Library! 🌍
-
